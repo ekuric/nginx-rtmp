@@ -170,6 +170,7 @@ Additional notes:
 - This configuration works for Youtube - uncomment in `nginx.conf` part `push rtmp://a.rtmp.youtube.com/live2/xxxxvfffffffffff;` - and provide your 
 youtube stream key. 
 - Similar configuarion would be to add additional stream destination in this [video](https://www.youtube.com/watch?v=vDxo0JiV0q0) there is an example. 
+- StreamCtrl expect to have access to OBS Stream web socket web address. In this configuration we tested it locally, for remote access it will be probably necessary to check / adapt network access for it.
 
 
 Happy Streaming! 
